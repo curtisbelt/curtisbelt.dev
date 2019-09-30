@@ -17,10 +17,22 @@ export default {
 
   modules: ['@nuxtjs/axios'],
 
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
+  buildModules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/netlify-files'
+  ],
 
   eslint: {
     fix: true
+  },
+
+  netlifyFiles: {
+    existingFilesDirectory: './netlify'
+  },
+
+  generate: {
+    fallback: true
   },
 
   modern: isProd,
@@ -28,6 +40,7 @@ export default {
   build: {
     parallel: isDev,
     cache: isDev,
-    hardSource: isDev
+    hardSource: isDev,
+    publicPath: '/assets/'
   }
 }
