@@ -15,7 +15,7 @@ export default {
 
   plugins: [{ src: '~plugins/font-awesome.js' }],
 
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/google-analytics'],
 
   buildModules: [
     '@nuxtjs/tailwindcss',
@@ -53,6 +53,15 @@ export default {
       start_url: '/',
       display: 'standalone'
     }
+  },
+
+  'google-analytics': {
+    id: 'G-TDPKN7W1PW',
+    disabled: () => document.cookie.includes('ga_optout=true'),
+    debug: {
+      sendHitTask: isProd
+    },
+    set: [{ field: 'anonymizeIp', value: true }]
   },
 
   generate: {
