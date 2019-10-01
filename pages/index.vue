@@ -6,6 +6,31 @@
     >
       Ready to go.
     </div>
+    <br />
+    <a
+      href="https://www.linkedin.com/in/curtisbelt/"
+      class="text-3xl hover:text-blue-500 p-2"
+    >
+      <FontAwesome :icon="['fab', 'linkedin']" />
+    </a>
+    <a
+      href="https://github.com/CurtisBelt"
+      class="text-3xl hover:text-blue-500 p-2"
+    >
+      <FontAwesome :icon="['fab', 'github']" />
+    </a>
+    <a
+      href="https://codepen.io/curtisbelt/"
+      class="text-3xl hover:text-blue-500 p-2"
+    >
+      <FontAwesome :icon="['fab', 'codepen']" />
+    </a>
+    <a
+      href="https://stackexchange.com/users/1306270/curtis?tab=accounts"
+      class="text-3xl hover:text-blue-500 p-2"
+    >
+      <FontAwesome :icon="['fab', 'stack-overflow']" />
+    </a>
   </div>
 </template>
 

@@ -11,11 +11,11 @@ export default {
     trailingSlash: false
   },
 
-  css: ['assets/css/tailwind'],
+  css: ['assets/css/tailwind', '@fortawesome/fontawesome-svg-core/styles.css'],
 
-  plugins: [],
+  plugins: [{ src: '~plugins/font-awesome.js' }],
 
-  modules: ['@nuxtjs/axios'],
+  modules: [],
 
   buildModules: [
     '@nuxtjs/tailwindcss',
@@ -29,6 +29,15 @@ export default {
 
   netlifyFiles: {
     existingFilesDirectory: './netlify'
+  },
+
+  purgeCSS: {
+    mode: 'postcss',
+    whitelistPatterns: [
+      // font-awesome
+      /^fa-/,
+      /--fa$/
+    ]
   },
 
   generate: {
