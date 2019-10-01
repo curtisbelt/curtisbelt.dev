@@ -56,7 +56,7 @@ export default {
   },
 
   'google-analytics': {
-    id: 'G-TDPKN7W1PW',
+    id: 'UA-149131633-1',
     disabled: () => document.cookie.includes('ga_optout=true'),
     debug: {
       sendHitTask: isProd
