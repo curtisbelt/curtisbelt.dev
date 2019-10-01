@@ -15,7 +15,7 @@ export default {
 
   plugins: [{ src: '~plugins/font-awesome.js' }],
 
-  modules: [],
+  modules: ['@nuxtjs/pwa'],
 
   buildModules: [
     '@nuxtjs/tailwindcss',
@@ -38,6 +38,21 @@ export default {
       /^fa-/,
       /--fa$/
     ]
+  },
+
+  pwa: {
+    meta: {
+      name: 'CurtisBelt.dev',
+      author: 'Curtis Belt',
+      ogHost: 'https://curtisbelt.dev'
+    },
+    manifest: {
+      name: 'CurtisBelt.dev',
+      lang: 'en',
+      short_name: 'CurtisBelt.dev',
+      start_url: '/',
+      display: 'standalone'
+    }
   },
 
   generate: {
