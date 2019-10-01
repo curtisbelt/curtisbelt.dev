@@ -1,36 +1,32 @@
 <template>
-  <div class="min-h-screen h-full flex justify-center items-center flex-col">
-    <img src="~assets/images/curtisbelt.png" class=" rounded-lg w-64 mb-4" />
-    <div
-      class="bg-gray-300 px-4 py-3 rounded text-base leading-none font-medium"
-    >
-      Ready to go.
+  <div>
+    <div class="text-center py-20">
+      <img
+        src="~assets/images/curtisbelt.png"
+        class="rounded-lg w-64 mb-2 mx-auto"
+      />
+      <div class="text-3xl font-bold">Curtis Belt</div>
+      <div>
+        <div
+          class="bg-gray-200 py-1 px-2 m-1 inline-block text-sm text-gray-700 rounded-full"
+        >
+          Full Stack Engineer
+        </div>
+        <div
+          class="bg-gray-200 py-1 px-2 m-1 inline-block text-sm text-gray-700 rounded-full"
+        >
+          AWS Cloud Architect
+        </div>
+        <div
+          class="bg-gray-200 py-1 px-2 m-1 inline-block text-sm text-gray-700 rounded-full"
+        >
+          IT Generalist
+        </div>
+      </div>
     </div>
-    <br />
-    <a
-      href="https://www.linkedin.com/in/curtisbelt/"
-      class="text-3xl hover:text-blue-500 p-2"
-    >
-      <FontAwesome :icon="['fab', 'linkedin']" />
-    </a>
-    <a
-      href="https://github.com/CurtisBelt"
-      class="text-3xl hover:text-blue-500 p-2"
-    >
-      <FontAwesome :icon="['fab', 'github']" />
-    </a>
-    <a
-      href="https://codepen.io/curtisbelt/"
-      class="text-3xl hover:text-blue-500 p-2"
-    >
-      <FontAwesome :icon="['fab', 'codepen']" />
-    </a>
-    <a
-      href="https://stackexchange.com/users/1306270/curtis?tab=accounts"
-      class="text-3xl hover:text-blue-500 p-2"
-    >
-      <FontAwesome :icon="['fab', 'stack-overflow']" />
-    </a>
+    <div class="text-center text-red-500">
+      Work in progress.
+    </div>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-6 m-auto max-w-6xl">
     <TheHeader />
     <Nuxt />
     <TheFooter />
