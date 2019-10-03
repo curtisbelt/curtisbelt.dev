@@ -19,6 +19,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/pro-duotone-svg-icons": "^5.11.2",
+    "@fortawesome/pro-light-svg-icons": "^5.11.2",
+    "@fortawesome/pro-solid-svg-icons": "^5.11.2",
     "@fortawesome/vue-fontawesome": "^0.1.7",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/netlify-files": "^1.0.0",

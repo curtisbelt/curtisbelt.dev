@@ -1,8 +1,10 @@
 <template>
-  <div class="p-6 m-auto max-w-6xl">
-    <TheHeader />
-    <Nuxt />
-    <TheFooter />
+  <div class="_transition-margin m-0 xl:m-16">
+    <div class="mx-auto bg-white shadow-xl xl:max-w-6xl">
+      <TheHeader />
+      <Nuxt />
+      <TheFooter />
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style lang="postcss" scoped>
+._transition-margin {
+  transition: margin 0.5s;
+}
+</style>

@@ -1,3 +1,15 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+body, html {
+  @apply .bg-gray-200 .m-0;
+}
+
+a {
+  transition: color 120ms;
+}
+
+p {
+  @apply my-2;
+}
