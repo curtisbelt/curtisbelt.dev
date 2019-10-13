@@ -17,7 +17,7 @@ export default [
         'SASS/SCSS',
         'WordPress Themes/Plugins',
         'PHP',
-        'Vue.js',
+        'Vue.js (inc. Vuex, Router)',
         'Nuxt.js',
         'TailwindCSS'
       ],
@@ -78,8 +78,8 @@ export default [
   {
     title: 'CMS & Generators',
     items: {
-      1: ['WordPress'],
-      2: ['Nuxt.js'],
+      1: ['WordPress', 'Nuxt.js'],
+      2: [],
       3: ['Contentful', 'Ghost']
     }
   },
@@ -114,17 +114,8 @@ export default [
   {
     title: 'Build Tools / CLI',
     items: {
-      1: [],
-      2: [
-        'Babel',
-        'Webpack',
-        'Yarn',
-        'npm',
-        'WP-CLI (WordPress)',
-        'AWS CLI',
-        'Composer',
-        'Grunt'
-      ],
+      1: ['WP-CLI (WordPress)'],
+      2: ['Babel', 'Webpack', 'Yarn', 'npm', 'AWS CLI', 'Composer', 'Grunt'],
       3: ['Gulp']
     }
   },
@@ -133,7 +124,7 @@ export default [
     items: {
       1: [],
       2: ['Zeplin', 'InVision'],
-      3: ['PhotoShop', 'GIMP']
+      3: ['Figma', 'PhotoShop', 'GIMP']
     }
   },
   {
