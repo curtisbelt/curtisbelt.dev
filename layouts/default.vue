@@ -1,6 +1,6 @@
 <template>
-  <div class="_transition-margin m-0 xl:m-16">
-    <div class="mx-auto bg-white shadow-xl xl:max-w-6xl">
+  <div class="_transition-margin m-0 lg:m-16">
+    <div class="mx-auto bg-white shadow-xl lg:max-w-6xl">
       <TheHeader />
       <Nuxt />
       <TheFooter />

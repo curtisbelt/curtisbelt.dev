@@ -1,7 +1,7 @@
 <template>
   <div class="px-4 md:px-12 p-5">
     <h2>Technologies</h2>
-    <div class="text-sm pb-5 md:pl-6">
+    <div class="pb-5 md:pl-6">
       <div class="mb-2 md:mb-0">
         <span class="text-red-600 font-bold">Advanced Production</span>:
         <span class="text-gray-600">
@@ -28,7 +28,7 @@
       <li
         v-for="(category, categoryIndex) in technologies"
         :key="`category-${categoryIndex}`"
-        class="text-sm font-bold pb-2"
+        class="font-bold pb-2"
       >
         {{ category.title }}
         <ul class="pt-2 pb-4">
@@ -38,7 +38,7 @@
             <li
               v-for="(technology, technologyIndex) in rating"
               :key="`rating-${ratingIndex}-technology-${technologyIndex}`"
-              class="my-0 text-sm font-normal pl-1"
+              class="my-0 font-normal pl-1"
             >
               <span
                 class="absolute __bullet-position"
@@ -73,16 +73,16 @@ h2 {
 
 ul {
   list-style-position: inside;
-  @media (min-width: 465px) {
+  @media (min-width: 485px) {
     column-count: 2;
   }
-  @media (min-width: 640px) {
+  @media (min-width: 660px) {
     column-count: 3;
   }
-  @media (min-width: 840px) {
+  @media (min-width: 888px) {
     column-count: 4;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1218px) {
     column-count: 5;
   }
 }

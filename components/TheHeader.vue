@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="text-lg font-bold">
         Curtis Belt
       </NuxtLink>
-      <div class="px-4 text-xs text-gray-600"></div>
+      <div class="px-4 text-gray-600"></div>
       <div class="flex-1"></div>
       <a
         v-for="button in social"
