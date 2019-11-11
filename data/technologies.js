@@ -30,15 +30,15 @@ export default [
     items: {
       1: ['NGINX', 'PHP-FPM', 'MySQL', 'PM2', 'JSON', 'PHP 7'],
       2: ['Laravel Eloquent ORM', 'Node.js / NVM', 'Bash Scripting', 'Regex'],
-      3: []
+      3: ['Laravel']
     }
   },
   {
-    title: 'Deployment',
+    title: 'Deployment & Automation',
     items: {
       1: ['Git Hooks', 'AWS Elastic Beanstalk', 'Bash Scripting', 'rsync'],
       2: [],
-      3: ['Docker', 'Docker Compose']
+      3: ['Ansible', 'Docker', 'Docker Compose']
     }
   },
   {
