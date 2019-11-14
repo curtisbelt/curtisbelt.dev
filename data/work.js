@@ -1,10 +1,17 @@
 export default [
   {
-    title: 'Developer/Tech Lead',
+    title: 'Software Engineer',
+    company: 'Penske Media Corporation',
+    startDate: '2019/11',
+    location: 'Chicago, IL (Remote)',
+    description: ['Coming soon']
+  },
+  {
+    title: 'Software Engineer & Tech Lead',
     company: 'TRIBUS',
     startDate: '2017/01',
     endDate: '2019/09',
-    location: 'Remote',
+    location: 'Chicago, IL (Remote)',
     description: [
       {
         label: 'Latest Projects',
@@ -37,7 +44,7 @@ export default [
     ]
   },
   {
-    title: 'Jr. Developer',
+    title: 'Software Engineer',
     company: 'TRIBUS',
     startDate: '2015/06',
     endDate: '2017/01',
