@@ -16,13 +16,13 @@ export default [
         'CSS',
         'SASS/SCSS',
         'WordPress Themes/Plugins',
-        'PHP',
+        'PHP 7',
         'Vue.js (inc. Vuex, Router)',
         'Nuxt.js',
         'TailwindCSS'
       ],
       2: ['JavaScript', 'Pug', 'PostCSS', 'jQuery (Core, UI)', 'Regex'],
-      3: ['Bootstrap', 'JAMstack']
+      3: ['Bootstrap', 'JAMstack', 'React.js', 'Next.js']
     }
   },
   {
@@ -90,7 +90,7 @@ export default [
       2: [
         'Google Maps / OpenStreetMap',
         'INRIX Traffic Data',
-        'RETS / RESO Data Dictionary (Real Estate Industry)'
+        'RETS / RESO Data Dictionary (Real Estate)'
       ],
       3: ['Cloudflare Developer API', 'GraphQL']
     }
