@@ -58,6 +58,16 @@ export default {
 
   methods: {
     printWorkDate(startDateString, endDateString) {
+      if (isNaN(Date.parse(startDateString))) {
+        return
+      }
+
+      let isCurrent = false
+      if (isNaN(Date.parse(endDateString))) {
+        endDateString = Date.now()
+        isCurrent = true
+      }
+
       const dateFormat = new Intl.DateTimeFormat('en-US', {
         month: 'short',
         year: 'numeric'
@@ -75,21 +85,24 @@ export default {
       let totalYearsString = ''
       if (totalYears) {
         totalYearsString =
-          totalYears > 1 ? `${totalYears} yrs` : `${totalYears} yr`
+          totalYears > 1 ? `${totalYears} yrs ` : `${totalYears} yr `
       }
 
       const remainingMonths = totalMonths % 12
+
       let remainingMonthsString = ''
-      if (remainingMonths) {
+      if (remainingMonths >= 1) {
         remainingMonthsString =
           remainingMonths > 1
             ? `${remainingMonths} mos`
             : `${remainingMonths} mo`
+      } else {
+        remainingMonthsString = '<1 mo'
       }
 
-      return `${dateFormat(startDate)} - ${dateFormat(
-        endDate
-      )} (${totalYearsString} ${remainingMonthsString})`
+      return `${dateFormat(startDate)} - ${
+        isCurrent ? 'Current' : dateFormat(endDate)
+      } (${totalYearsString}${remainingMonthsString})`
     }
   }
 }
