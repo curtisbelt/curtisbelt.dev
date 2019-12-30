@@ -4,9 +4,12 @@
 
 ### Usage
 
-ℹ️ Configure FontAwesome Pro token using system enviroment variable `FONTAWESOME_NPM_AUTH_TOKEN`.
 
 ```sh
+# configure fontawesome globally
+npm config set "@fortawesome:registry" https://npm.fontawesome.com/
+npm config set "//npm.fontawesome.com/:_authToken" XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+
 # install dependencies
 yarn install
 
