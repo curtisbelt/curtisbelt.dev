@@ -4,11 +4,11 @@ const isDev = !isProd
 export default {
   head: {
     titleTemplate: (titleChunk) =>
-      titleChunk ? `${titleChunk} - CurtisBelt.dev` : 'CurtisBelt.dev'
+      titleChunk ? `${titleChunk} - CurtisBelt.dev` : 'CurtisBelt.dev',
   },
 
   router: {
-    trailingSlash: false
+    trailingSlash: false,
   },
 
   css: ['assets/css/tailwind', '@fortawesome/fontawesome-svg-core/styles.css'],
@@ -20,15 +20,15 @@ export default {
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/netlify-files'
+    '@nuxtjs/netlify-files',
   ],
 
   eslint: {
-    fix: true
+    fix: true,
   },
 
   netlifyFiles: {
-    existingFilesDirectory: './netlify'
+    existingFilesDirectory: './netlify',
   },
 
   purgeCSS: {
@@ -36,36 +36,36 @@ export default {
     whitelistPatterns: [
       // font-awesome
       /^fa-/,
-      /--fa$/
-    ]
+      /--fa$/,
+    ],
   },
 
   pwa: {
     meta: {
       name: 'CurtisBelt.dev',
       author: 'Curtis Belt',
-      ogHost: 'https://curtisbelt.dev'
+      ogHost: 'https://curtisbelt.dev',
     },
     manifest: {
       name: 'CurtisBelt.dev',
       lang: 'en',
       short_name: 'CurtisBelt.dev',
       start_url: '/',
-      display: 'standalone'
-    }
+      display: 'standalone',
+    },
   },
 
   'google-analytics': {
     id: 'UA-149131633-1',
     disabled: () => document.cookie.includes('ga_optout=true'),
     debug: {
-      sendHitTask: isProd
+      sendHitTask: isProd,
     },
-    set: [{ field: 'anonymizeIp', value: true }]
+    set: [{ field: 'anonymizeIp', value: true }],
   },
 
   generate: {
-    fallback: true
+    fallback: true,
   },
 
   modern: isProd,
@@ -74,6 +74,6 @@ export default {
     parallel: isDev,
     cache: isDev,
     hardSource: isDev,
-    publicPath: '/assets/'
-  }
+    publicPath: '/assets/',
+  },
 }

@@ -52,7 +52,7 @@ export default {
   name: 'SectionWork',
   data() {
     return Object.freeze({
-      work
+      work,
     })
   },
 
@@ -70,7 +70,7 @@ export default {
 
       const dateFormat = new Intl.DateTimeFormat('en-US', {
         month: 'short',
-        year: 'numeric'
+        year: 'numeric',
       }).format
 
       const startDate = new Date(startDateString)
@@ -103,8 +103,8 @@ export default {
       return `${dateFormat(startDate)} - ${
         isCurrent ? 'Current' : dateFormat(endDate)
       } (${totalYearsString}${remainingMonthsString})`
-    }
-  }
+    },
+  },
 }
 </script>
 

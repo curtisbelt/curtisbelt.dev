@@ -60,9 +60,9 @@ export default {
   name: 'SectionTechnologies',
   data() {
     return Object.freeze({
-      technologies
+      technologies,
     })
-  }
+  },
 }
 </script>
 

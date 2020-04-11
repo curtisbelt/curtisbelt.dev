@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div
-      class="sm:flex items-center mb-2  max-w-5xl py-2 md:py-8 px-4 md:px-12"
-    >
+    <div class="sm:flex items-center mb-2 max-w-5xl py-2 md:py-8 px-4 md:px-12">
       <img
         src="~assets/images/curtisbelt.png"
         class="rounded-lg w-48 h-48 md:w-48 md:h-48 sm:mr-6 mx-auto mb-8 sm:mb-0"
@@ -46,7 +44,7 @@ export default {
   name: 'Index',
   components: {
     SectionTechnologies,
-    SectionWork
-  }
+    SectionWork,
+  },
 }
 </script>

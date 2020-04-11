@@ -29,8 +29,8 @@ export default {
   name: 'TheHeader',
   data() {
     return {
-      social: Object.freeze(social)
+      social: Object.freeze(social),
     }
-  }
+  },
 }
 </script>

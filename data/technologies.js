@@ -19,35 +19,35 @@ export default [
         'PHP 7',
         'Vue.js (inc. Vuex, Router)',
         'Nuxt.js',
-        'TailwindCSS'
+        'TailwindCSS',
       ],
       2: ['JavaScript', 'Pug', 'PostCSS', 'jQuery (Core, UI)', 'Regex'],
-      3: ['Bootstrap', 'JAMstack', 'React.js', 'Next.js']
-    }
+      3: ['Bootstrap', 'JAMstack', 'React.js', 'Next.js'],
+    },
   },
   {
     title: 'Back-end',
     items: {
       1: ['NGINX', 'PHP-FPM', 'MySQL', 'PM2', 'JSON', 'PHP 7'],
       2: ['Laravel Eloquent ORM', 'Node.js / NVM', 'Bash Scripting', 'Regex'],
-      3: ['Laravel']
-    }
+      3: ['Laravel'],
+    },
   },
   {
     title: 'Deployment & Automation',
     items: {
       1: ['Git Hooks', 'AWS Elastic Beanstalk', 'Bash Scripting', 'rsync'],
       2: [],
-      3: ['Ansible', 'Docker', 'Docker Compose']
-    }
+      3: ['Ansible', 'Docker', 'Docker Compose'],
+    },
   },
   {
     title: 'Monitoring / Performance',
     items: {
       1: ['AWS CloudWatch', 'Loggly', 'Papertrail', 'tail -f error.log'],
       2: ['New Relic', 'Blackfire.io'],
-      3: []
-    }
+      3: [],
+    },
   },
   {
     title: 'Amazon Web Services (AWS)',
@@ -62,17 +62,17 @@ export default [
         'Router 53',
         'API Gateway',
         'CloudFront',
-        'CodeCommit'
-      ]
-    }
+        'CodeCommit',
+      ],
+    },
   },
   {
     title: 'Platforms',
     items: {
       1: ['AWS: Elastic Beanstalk'],
       2: ['WP Engine', 'Shared Hosting (ex. HostGator, Dreamhost)'],
-      3: ['Heroku', 'Digital Ocean', 'Netlify']
-    }
+      3: ['Heroku', 'Digital Ocean', 'Netlify'],
+    },
   },
 
   {
@@ -80,8 +80,8 @@ export default [
     items: {
       1: ['WordPress', 'Nuxt.js'],
       2: [],
-      3: ['Contentful', 'Ghost']
-    }
+      3: ['Contentful', 'Ghost'],
+    },
   },
   {
     title: 'API / CLI',
@@ -90,66 +90,66 @@ export default [
       2: [
         'Google Maps / OpenStreetMap',
         'INRIX Traffic Data',
-        'RETS / RESO Data Dictionary (Real Estate)'
+        'RETS / RESO Data Dictionary (Real Estate)',
       ],
-      3: ['Cloudflare Developer API', 'GraphQL']
-    }
+      3: ['Cloudflare Developer API', 'GraphQL'],
+    },
   },
   {
     title: 'Databases',
     items: {
       1: ['MySQL', 'Amazon Aurora MySQL', 'MariaDB'],
       2: ['Amazon Aurora Serverless MySQL', 'Redis', 'PHPMyAdmin'],
-      3: ['FaunaDB', 'PostgreSQL']
-    }
+      3: ['FaunaDB', 'PostgreSQL'],
+    },
   },
   {
     title: 'Versioning',
     items: {
       1: ['Git', 'GitHub'],
       2: ['SVN'],
-      3: ['BitBucket', 'GitLab']
-    }
+      3: ['BitBucket', 'GitLab'],
+    },
   },
   {
     title: 'Build Tools / CLI',
     items: {
       1: ['WP-CLI (WordPress)'],
       2: ['Babel', 'Webpack', 'Yarn', 'npm', 'AWS CLI', 'Composer', 'Grunt'],
-      3: ['Gulp']
-    }
+      3: ['Gulp'],
+    },
   },
   {
     title: 'Design',
     items: {
       1: [],
       2: ['Zeplin', 'InVision'],
-      3: ['Figma', 'PhotoShop', 'GIMP']
-    }
+      3: ['Figma', 'PhotoShop', 'GIMP'],
+    },
   },
   {
     title: 'Text Editors',
     items: {
       1: ['VSCode', 'Sublime  Text'],
       2: ['nano'],
-      3: ['Atom', 'PHPStorm']
-    }
+      3: ['Atom', 'PHPStorm'],
+    },
   },
   {
     title: 'Testing & Linting',
     items: {
       1: [],
       2: ['ESLint', 'Browserstack'],
-      3: []
-    }
+      3: [],
+    },
   },
   {
     title: 'Operating Systems',
     items: {
       1: ['Fedora / Redhat / CentOS', 'Windows'],
       2: ['Ubuntu', 'Antergos (discontinued)', 'MacOS X'],
-      3: ['Arch']
-    }
+      3: ['Arch'],
+    },
   },
   {
     title: 'Management / Productivity',
@@ -161,11 +161,11 @@ export default [
         'Pivotal Tracker',
         'Google Suite (Gmail, Drive, Docs, Sheets, Hangouts, etc)',
         'Discord',
-        'Dynalist'
+        'Dynalist',
       ],
       2: ['JIRA', 'Confluence', 'Trello', 'Lync'],
-      3: ['Notion.so', 'Slack', 'Skype']
-    }
+      3: ['Notion.so', 'Slack', 'Skype'],
+    },
   },
 
   {
@@ -176,10 +176,10 @@ export default [
         'DBeaver',
         'Insomnia',
         'Tilix Terminal (/w Oh My Zsh)',
-        'Flameshot'
+        'Flameshot',
       ],
       2: ['Dropbox', 'Postman', 'Fsearch', 'Peek'],
-      3: ['Vagrant', 'VirtualBox']
-    }
-  }
+      3: ['Vagrant', 'VirtualBox'],
+    },
+  },
 ]

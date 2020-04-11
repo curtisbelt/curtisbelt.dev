@@ -4,7 +4,7 @@ export default [
     company: 'Penske Media Corporation',
     startDate: '2019/11',
     location: 'Chicago, IL (Remote)',
-    description: ['Coming soon']
+    description: ['Coming soon'],
   },
   {
     title: 'Software Engineer & Tech Lead',
@@ -20,8 +20,8 @@ export default [
           'Created custom Nuxt.js themes (Vue.js/Vuex/Vue Router/JS/TailwindCSS/PostCSS)',
           'Created a Nuxt.js + WordPress framework nicknamed "NuxtPress" to speed up creation of future projects',
           'Created custom WordPress API which had two goals in mind: drastically improve read performance, and enhance developer quality of life',
-          'Created library of shared Vue.js components for common features and functionality'
-        ]
+          'Created library of shared Vue.js components for common features and functionality',
+        ],
       },
       {
         label: 'AWS Cloud Architecture',
@@ -30,18 +30,18 @@ export default [
           'High availability: I wrote a bash script for in-place rapid deployments, which performed an atomic deployment via symlinks. I also wrote a custom PHP script to fully preload the PHP OPCache, which would run after any deployment',
           'Automation: Created bash scripts for auto-generating NGINX config files from database, cloning production to staging/testing/local, data migrations for client launches, and more. Automated CNAME management on Cloudflare using their developer API',
           'Deployment Engineer: Responsible for safe deployment of releases into production environment',
-          'On-call 24/7: Proactive monitoring was key to catching problems before they occurred. Used Cloudwatch to monitor server health metrics and send text/email alerts'
-        ]
+          'On-call 24/7: Proactive monitoring was key to catching problems before they occurred. Used Cloudwatch to monitor server health metrics and send text/email alerts',
+        ],
       },
       {
         label: 'Leadership',
         children: [
           'Spent a year as a Tech Lead for a 3 person team before I left',
           'Trained/mentored, assigned tasks based on skill to encourage growth',
-          'Established consistency for the team, such as code format/linting rules, developer workstation configuration (LEMP stack, etc), deployment processes and so on.'
-        ]
-      }
-    ]
+          'Established consistency for the team, such as code format/linting rules, developer workstation configuration (LEMP stack, etc), deployment processes and so on.',
+        ],
+      },
+    ],
   },
   {
     title: 'Software Engineer',
@@ -53,8 +53,8 @@ export default [
       'Created and maintained all custom WordPress themes',
       'Mapping RETS data imports to our standardized database fields',
       'Assisted Sr. Developer with transition from WPEngine to custom AWS infrastructure',
-      'Continued maintenance and improvements on WordPress AWS infrastructure'
-    ]
+      'Continued maintenance and improvements on WordPress AWS infrastructure',
+    ],
   },
   {
     title: 'Tier 2 Customer Support',
@@ -67,8 +67,8 @@ export default [
       'Created and maintained data standardization maps for RETS feed importer.',
       'Performed detailed analysis of individual RETS feeds to ensure as much data as possible was imported',
       'Used basic Ruby scripting for tasks such as cleaning up formatting, and conditionally importing multiple columns into one.',
-      'Assisted with chat support queue while training for more technical tasks'
-    ]
+      'Assisted with chat support queue while training for more technical tasks',
+    ],
   },
   {
     title: 'Order Management Specialist (SAP ERP)',
@@ -77,8 +77,8 @@ export default [
     endDate: '2015/01',
     location: 'Omaha, NE',
     description: [
-      'Meant to be a shorter-term job after a failed business venture, but I was having fun writing AutoHotkey scripts to automate data entry.'
-    ]
+      'Meant to be a shorter-term job after a failed business venture, but I was having fun writing AutoHotkey scripts to automate data entry.',
+    ],
   },
   {
     title: 'Web Developer & IT Admin',
@@ -91,8 +91,8 @@ export default [
       'Lead initiative to upgrade outdated office technology',
       'Deployed new CRM to more efficiently manage leads and opportunities',
       'Converted client paperwork to digital copy which drastically reduced missed sales opportunities.',
-      'General IT support for all computer equipment.'
-    ]
+      'General IT support for all computer equipment.',
+    ],
   },
   {
     title: 'Web Developer',
@@ -104,8 +104,8 @@ export default [
       'Independently managed Quick Connect’s web development department',
       '45+ Joomla and WordPress websites (mostly small businesses)',
       'HTML, CSS, JS, PHP, deployed via FTP to Dreamhost',
-      'Maintained Quick Connect’s website and internal custom applications (employee time sheets, invoice generator)'
-    ]
+      'Maintained Quick Connect’s website and internal custom applications (employee time sheets, invoice generator)',
+    ],
   },
   {
     title: 'Bench Technician',
@@ -116,8 +116,8 @@ export default [
     description: [
       'Independently managed Omaha office for 6 months.',
       'PC/Mac repair, laptop screen repair, data recovery, virus removal, etc.',
-      'Created quotes for custom PCs, facilitated data migration from old PC, and delivered/setup to client’s home or office.'
-    ]
+      'Created quotes for custom PCs, facilitated data migration from old PC, and delivered/setup to client’s home or office.',
+    ],
   },
   {
     title: 'Fire Support Specialist',
@@ -127,7 +127,7 @@ export default [
     location: 'Lincoln, NE',
     description: [
       'Deployed for 2 weeks to Louisiana in September 2008 for Hurricane Gustav and Ike relief operations, working as a driver.',
-      'Honorably/medically discharged in March 2011 due to a broken leg caused by a motorcycle accident.'
-    ]
-  }
+      'Honorably/medically discharged in March 2011 due to a broken leg caused by a motorcycle accident.',
+    ],
+  },
 ]
