@@ -1306,12 +1306,12 @@
   dependencies:
     vue-analytics "^5.22.1"
 
-"@nuxtjs/netlify-files@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/netlify-files/-/netlify-files-1.0.0.tgz#2c0d37050431db82b8698e47d1767a13e687da97"
-  integrity sha512-5hWJh5V9z84AabuDwdsG2BO1axef7D+UdoGMmiknp7XrN3HwyYblnOgnRlH9U/i8eLXtM28Tb0uC3zwygfB7+A==
+"@nuxtjs/netlify-files@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/netlify-files/-/netlify-files-1.1.0.tgz#8f5031e342070f2f172e2abee01334095d21c727"
+  integrity sha512-no2UeRBehQ/BTRGJadJzDYF8PxLwCNT32WNcOdwyvaVXWCt76ESJyuYkMs84MsiohZjgEFVg2ETEWBu4wlB0Nw==
   dependencies:
-    fs-extra "^8.1.0"
+    consola "^2.11.3"
 
 "@nuxtjs/pwa@^3.0.0-beta.20":
   version "3.0.0-beta.20"
@@ -2737,12 +2737,7 @@ consola@^1.4.5:
     lodash "^4.17.5"
     std-env "^1.1.0"
 
-consola@^2.10.0, consola@^2.10.1, consola@^2.6.0, consola@^2.9.0:
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-2.11.2.tgz#e2d2028d634b2c44db81c26cc328b8e42d24f2f5"
-  integrity sha512-kiOd0jqR5wo4swTf/aTu/Y+mynBjFD70tEpVS83jMtzqahKLPLJTDjVFDhg9ihuiWVV5TLQ43LlwleXuz2yYKg==
-
-consola@^2.11.3:
+consola@^2.10.0, consola@^2.10.1, consola@^2.11.3, consola@^2.6.0, consola@^2.9.0:
   version "2.11.3"
   resolved "https://registry.yarnpkg.com/consola/-/consola-2.11.3.tgz#f7315836224c143ac5094b47fd4c816c2cd1560e"
   integrity sha512-aoW0YIIAmeftGR8GSpw6CGQluNdkWMWh3yEFjH/hmynTYnMtibXszii3lxCXmk8YxJtI3FAK5aTiquA5VH68Gw==
