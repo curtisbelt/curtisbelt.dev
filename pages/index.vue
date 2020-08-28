@@ -17,16 +17,16 @@
             rel="noreferrer noopener"
             >T-shaped</a
           >" Developer, specializing in
-          <strong>Front-end Development (7 yrs)</strong>.
+          <strong>Front-end Development (8 yrs)</strong>.
         </p>
 
         <p>With additional experience in:</p>
 
         <ul class="list-disc pl-8">
-          <li>Back-end Development (3 yrs)</li>
+          <li>Back-end Development (4 yrs)</li>
           <li>AWS Cloud Architecture (3 yrs)</li>
           <li>Linux Server Administration (2 yrs)</li>
-          <li>Deployment Engineer (2 yrs)</li>
+          <li>DevOps (2 yrs)</li>
         </ul>
       </div>
     </div>

@@ -12,23 +12,28 @@ export default [
     title: 'Front-end',
     items: {
       1: [
-        'HTML',
-        'CSS',
-        'SASS/SCSS',
+        'HTML / CSS / SASS',
         'WordPress Themes/Plugins',
         'PHP 7',
         'Vue.js (inc. Vuex, Router)',
         'Nuxt.js',
         'TailwindCSS',
       ],
-      2: ['JavaScript', 'Pug', 'PostCSS', 'jQuery (Core, UI)', 'Regex'],
-      3: ['Bootstrap', 'JAMstack', 'React.js', 'Next.js'],
+      2: [
+        'React.js',
+        'React Native',
+        'JavaScript ES7',
+        'PostCSS',
+        'jQuery (Core, UI)',
+        'Regex',
+      ],
+      3: ['Bootstrap', 'Next.js'],
     },
   },
   {
     title: 'Back-end',
     items: {
-      1: ['NGINX', 'PHP-FPM', 'MySQL', 'PM2', 'JSON', 'PHP 7'],
+      1: ['NGINX / PHP-FPM', 'MySQL', 'PM2', 'PHP 7'],
       2: ['Laravel Eloquent ORM', 'Node.js / NVM', 'Bash Scripting', 'Regex'],
       3: ['Laravel'],
     },
@@ -69,8 +74,12 @@ export default [
   {
     title: 'Platforms',
     items: {
-      1: ['AWS: Elastic Beanstalk'],
-      2: ['WP Engine', 'Shared Hosting (ex. HostGator, Dreamhost)'],
+      1: [
+        'AWS: Elastic Beanstalk',
+        'WordPress VIP Classic',
+        'WordPress VIP Go',
+      ],
+      2: ['WP Engine', 'Shared Hosting'],
       3: ['Heroku', 'Digital Ocean', 'Netlify'],
     },
   },

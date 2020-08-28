@@ -4,7 +4,48 @@ export default [
     company: 'Penske Media Corporation',
     startDate: '2019/11',
     location: 'Chicago, IL (Remote)',
-    description: ['Coming soon'],
+    intro:
+      'PMC is the parent corporation of notable brands such as <a href="https://rollingstone.com/">RollingStone</a>, <a href="https://variety.com/">Variety</a>, and <a href="https://wwd.com/">WWD</a>. My primary role is to maintain and improve shared technology between these (and other) brands.',
+    description: [
+      {
+        label: 'WordPress Host Migrations: Technical Lead (Current Project)',
+        children: [
+          'Migrate all PMC sites to new WordPress host.',
+          'Review and resolve any compatibility issues within the PHP code (custom WordPress themes and plugins).',
+          'Collaborate with DevOps engineers to plan/implement developer workflow improvements on new host.',
+        ],
+      },
+      {
+        label: 'Cross-brand Technology: Front-end',
+        children: [
+          'My primary role (secondary during the migrations project) was to build out new features/improvements for cross-brand technologies, such as Gallery or Lists plugins.',
+          'Front-end (and some back-end) development work dealing with HTML/CSS/JS/React.js/PHP.',
+        ],
+      },
+      {
+        label: 'Mobile Apps: React Native',
+        children: [
+          'Helped with final touches on app of one brand, and with the beginning of an upcoming redesign for another brand.',
+          'React-Native apps built for iOS and Android phones.',
+          'Handed off responsibilities to another engineer once the host migration project began to pick up speed.',
+        ],
+      },
+      {
+        label: 'Variety.com Redesign: Front-end',
+        children: [
+          'Joined toward the end of the project to help bring it across the finish line.',
+          'Front-end development work dealing with HTML/CSS/JavaScript/PHP/Custom WordPress themes & plugins.',
+        ],
+      },
+      {
+        label: 'Team-Building',
+        children: [
+          'A proposal of mine was accepted and still running today:  a #someone-new slack channel using a “Donut” bot (donut.com), where every 2 weeks all members of the channel are automatically paired up to meet and “have coffee together” to get to know each other.',
+          'Created a new #react-lab channel as an attempt to start hyping up the team for React.js.',
+          'Started an anonymous "Engineering Skills Survey" to assess what skills/languages we all currently have, want, or are interested in learning. The survey results showed a large interest in React.js. As a result, a group of engineers got together in #react-lab to take React.js courses as a team! Engineering leadership plans to repeat the survey annually.',
+        ],
+      },
+    ],
   },
   {
     title: 'Software Engineer & Tech Lead',

@@ -3,12 +3,13 @@
 @import "tailwindcss/utilities";
 
 body, html {
-  @apply .bg-gray-200 .m-0;
+  @apply bg-gray-200 m-0;
   font-size: 15px;
 }
 
-a {
+.SectionWork a {
   transition: color 120ms;
+  @apply underline text-blue-700;
 }
 
 p {

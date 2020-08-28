@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 md:px-12 p-5">
+  <div class="SectionWork // px-4 md:px-12 p-5">
     <h2>Work</h2>
 
     <div
@@ -14,6 +14,8 @@
         </div>
       </div>
       <div>{{ position.company }}, {{ position.location }}</div>
+
+      <div class="my-4" v-html="position.intro"></div>
 
       <div
         class="text-sm py-3 px-4 my-4 bg-gray-100 border-l-2 border-gray-300"
@@ -94,10 +96,10 @@ export default {
       if (remainingMonths >= 1) {
         remainingMonthsString =
           remainingMonths > 1
-            ? `${remainingMonths} mos`
-            : `${remainingMonths} mo`
+            ? `${remainingMonths} months`
+            : `${remainingMonths} month`
       } else {
-        remainingMonthsString = '<1 mo'
+        remainingMonthsString = '<1 month'
       }
 
       return `${dateFormat(startDate)} - ${
