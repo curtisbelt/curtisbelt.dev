@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/curtisbelt/curtisbelt.dev/compare/v0.0.1...v0.0.2) (2020-08-28)
+
+
+### Features
+
+* update info as of October 2020 ([3a8f522](https://github.com/curtisbelt/curtisbelt.dev/commit/3a8f52295f7b006c57e274184632a50e8e8e4957))
+
 ### 0.0.1 (2019-12-30)
 
 
