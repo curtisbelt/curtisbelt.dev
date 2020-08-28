@@ -1,9 +1,7 @@
 <template>
   <nav class="TheHeader px-4 md:px-12 py-5">
     <div class="flex justify-center items-center leading-none">
-      <NuxtLink to="/" class="text-lg font-bold">
-        Curtis Belt
-      </NuxtLink>
+      <NuxtLink to="/" class="text-lg font-bold">Curtis Belt</NuxtLink>
       <div class="px-4 text-gray-600"></div>
       <div class="flex-1"></div>
       <a
