@@ -41,6 +41,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
-    "standard-version": "^9.0.0"
+    "standard-version": "^9.3.0"
   }
 }
