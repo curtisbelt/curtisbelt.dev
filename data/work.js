@@ -1,8 +1,39 @@
 export default [
   {
+    title: 'Senior Lead Software Engineer',
+    company: 'Ludi, Inc.',
+    startDate: '2024/03',
+    endDate: '2026/03',
+    location: 'Chicago, IL (Remote)',
+    intro:
+      'Joined as a senior engineer and rapidly became the de facto platform architect - introducing a full TALL stack modernization, establishing engineering standards, leading multi-developer epics, and owning production infrastructure across a 14-year-old enterprise platform.',
+    description: [
+      'Proposed and led adoption of Laravel/Filament as the modernization path for a 14-year-old legacy PHP platform - evaluated alternatives, built proof-of-concept demos, and secured executive buy-in within 2 weeks.',
+      'Led Laravel/Filament migration across 3 concurrent dev teams - defined architectural patterns, arbitrated build-vs-customize decisions with Product/Design, cutting feature scaffolding time in half.',
+      'Reviewed all PRs across 6 developers during migration period - caught architectural anti-patterns pre-merge and established review standards the team continued using independently.',
+      'Executed zero-downtime cleanup of 2.7 billion rows on production database using bash scripting, MySQL triggers, and atomic table renames. Led MySQL 8.4 upgrade prep under a vendor EOL deadline.',
+      "Built the team's engineering knowledge base from scratch - 15+ documents covering environment setup, branching strategy, deployment runbooks, and TALL stack onboarding, reducing new developer ramp-up from 6 to 3 weeks. Coached 3 junior/mid engineers to independent TALL stack contributors within 2 months.",
+    ],
+  },
+  {
+    title: 'Senior Software Engineer - WordPress VIP Premier Team',
+    company: 'Automattic, Inc.',
+    startDate: '2020/10',
+    endDate: '2024/08',
+    location: 'Chicago, IL (Remote)',
+    intro:
+      'Worked as the final escalation point for enterprise customers on WordPress VIP (wpvip.com), ensuring the success of key clients in scaling, building, and deploying applications. Responsibilities spanned architectural consulting, complex database migrations, performance analysis, root cause analysis, proactive monitoring, and developer training.',
+    description: [
+      "Resolved highly complex, time-sensitive issues that had already been escalated through multiple support tiers within both the customer's development team and VIP's internal support organization.",
+      'Performed code reviews for customer deployment repositories spanning PHP, JavaScript/TypeScript, CSS, HTML, Vue, and React - including custom WordPress themes and plugins.',
+      'Authored a widely-used SQL script for consolidating and merging multiple WordPress installations as subsites under a single network.',
+    ],
+  },
+  {
     title: 'Software Engineer',
     company: 'Penske Media Corporation',
     startDate: '2019/11',
+    endDate: '2020/10',
     location: 'Chicago, IL (Remote)',
     intro:
       'PMC is the parent corporation of notable brands such as <a href="https://rollingstone.com/">RollingStone</a>, <a href="https://variety.com/">Variety</a>, and <a href="https://wwd.com/">WWD</a>. My primary role is to maintain and improve shared technology between these (and other) brands.',
