@@ -10,36 +10,22 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "format": "eslint --ext .js,.vue --ignore-path .gitignore --fix .",
-    "release": "standard-version"
+    "lint": "eslint .",
+    "format": "eslint --fix .",
+    "prepare": "nuxt prepare"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
-    "@fortawesome/pro-duotone-svg-icons": "^5.14.0",
-    "@fortawesome/pro-light-svg-icons": "^5.14.0",
-    "@fortawesome/pro-solid-svg-icons": "^5.14.0",
-    "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/netlify-files": "^1.2.0",
-    "@nuxtjs/pwa": "^3.3.5",
+    "@fortawesome/vue-fontawesome": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "nuxt": "^4.4.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.5.0",
-    "@commitlint/config-conventional": "^20.5.0",
-    "@nuxtjs/eslint-config": "12.0.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "babel-eslint": "^10.1.0",
+    "@nuxt/eslint": "^1.0.0",
     "eslint": "^10.1.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-vue": "^10.8.0",
-    "prettier": "^3.8.1",
-    "standard-version": "^9.5.0"
+    "prettier": "^3.8.1"
   }
 }

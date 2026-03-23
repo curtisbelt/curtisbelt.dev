@@ -37,14 +37,7 @@
 </template>
 
 <script>
-import SectionTechnologies from '~/components/SectionTechnologies'
-import SectionWork from '~/components/SectionWork'
-
 export default {
   name: 'Index',
-  components: {
-    SectionTechnologies,
-    SectionWork,
-  },
 }
 </script>
